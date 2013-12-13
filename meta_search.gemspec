@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activerecord>, ["~> 4.0.2"])
       s.add_runtime_dependency(%q<activesupport>, ["~> 4.0.2"])
-      s.add_runtime_dependency(%q<polyamorous>, ["~> 0.5.0"])
+      s.add_runtime_dependency(%q<polyamorous>, ["~> 0.6.4"])
       s.add_runtime_dependency(%q<actionpack>, ["~> 4.0.2"])
       s.add_development_dependency(%q<shoulda>, ["~> 2.11"])
     else
@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<activerecord>, ["~> 4.0.2"])
     s.add_dependency(%q<activesupport>, ["~> 4.0.2"])
-    s.add_dependency(%q<polyamorous>, ["~> 0.5.0"])
+    s.add_dependency(%q<polyamorous>, ["~> 0.6.4"])
     s.add_dependency(%q<actionpack>, ["~> 4.0.2"])
     s.add_dependency(%q<shoulda>, ["~> 2.11"])
   end
